@@ -1,0 +1,186 @@
+{
+    "_id": null,
+    "config": {
+        "access_domains": {
+            "access": "http://ap-04.accessfonbet.co/",
+            "app_android": "http://mp-01.directsmartroute.co/androidmobile-ga/?utm_source=androidmobile&utm_medium=foninfo.net_1&utm_campaign=mark",
+            "app_java": "http://mp-01.directsmartroute.co/jad-ga/?utm_source=jad&utm_medium=foninfo.net_1&utm_campaign=mark"
+        },
+        "config_url": [],
+        "features": {
+            "betOfTheDay": {
+                "enabled": false
+            },
+            "expressConstructor": {
+                "enabled": false,
+                "maxCount": 5,
+                "maxK": 100,
+                "minCount": 3,
+                "minK": 1.05
+            },
+            "news": {
+                "enabled": false
+            },
+            "readyBet": true,
+            "registrationV3": {
+                "enabled": false,
+                "simplified": true
+            },
+            "sportcasts": {
+                "enabled": false
+            },
+            "tote": {
+                "enabled": false
+            }
+        },
+        "info_pages": "https://fonbet.com.cy/mobile/#/pages/",
+        "request_timeout": 10,
+        "servers": {
+            "express_builder": {
+                "hosts": [
+                    {
+                        "url": "clientsapi02.cy-resources.com/expressbuilder"
+                    },
+                    {
+                        "url": "clientsapi01.cy-resources.com/expressbuilder"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "js": {
+                "hosts": [
+                    {
+                        "url": "clientsapi02.cy-resources.com"
+                    },
+                    {
+                        "url": "clientsapi01.cy-resources.com"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "js_phone_line": {
+                "hosts": [
+                    {
+                        "url": "line02.cy-resources.com"
+                    },
+                    {
+                        "url": "line01.cy-resources.com"
+                    }
+                ],
+                "scheme": "http",
+                "via_proxy": false
+            },
+            "mobile": {
+                "hosts": [
+                    {
+                        "url": "clientsapi02.cy-resources.com/mobilenew"
+                    },
+                    {
+                        "url": "clientsapi01.cy-resources.com/mobilenew"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "payment": {
+                "hosts": [
+                    {
+                        "url": "clientsapi02.cy-resources.com/account"
+                    },
+                    {
+                        "url": "clientsapi01.cy-resources.com/account"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "promocodes": {
+                "hosts": [
+                    {
+                        "url": "clientsapi02.cy-resources.com/promocodes"
+                    },
+                    {
+                        "url": "clientsapi01.cy-resources.com/promocodes"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "reg": {
+                "hosts": [
+                    {
+                        "url": "clientsapi02.cy-resources.com"
+                    },
+                    {
+                        "url": "clientsapi01.cy-resources.com"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "reg_tsupis": {
+                "hosts": [
+                    {
+                        "url": "clientsapi02.cy-resources.com"
+                    },
+                    {
+                        "url": "clientsapi01.cy-resources.com"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "sportcasts": {
+                "hosts": [
+                    {
+                        "url": "clientsapi02.cy-resources.com/sportcastsproxy"
+                    },
+                    {
+                        "url": "clientsapi01.cy-resources.com/sportcastsproxy"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "stats": {
+                "hosts": [
+                    {
+                        "url": "clientsapi02.cy-resources.com/stat"
+                    },
+                    {
+                        "url": "clientsapi01.cy-resources.com/stat"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "tote_info": {
+                "hosts": [
+                    {
+                        "url": "clientsapi02.cy-resources.com/superexpress-info"
+                    },
+                    {
+                        "url": "clientsapi01.cy-resources.com/superexpress-info"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            }
+        },
+        "static_url": "https://origin.cy-resources.com/",
+        "stats_page": "https://s5.sir.sportradar.com/fonbet/",
+        "tor_timeout": 20,
+        "update": [
+            "https://clientsapi01.cy-resources.com/mobile/update"
+        ],
+        "updateNow": [
+            "https://clientsapi01.cy-resources.com/mobile/update"
+        ]
+    },
+    "number_id": 31,
+    "server": [
+        "188.42.196.0"
+    ]
+}

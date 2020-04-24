@@ -75,9 +75,6 @@
             "mobile": {
                 "hosts": [
                     {
-                        "url": "clientsapi02.cy-resources.com/mobilenew"
-                    },
-                    {
                         "url": "clientsapi01.cy-resources.com/mobilenew"
                     }
                 ],

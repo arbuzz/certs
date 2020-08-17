@@ -1,0 +1,422 @@
+{
+    "_id": null,
+    "config": {
+        "access_domains": {
+            "access": "http://ap-04.accessfonbet.co/",
+            "app_android": "http://mp-01.directsmartroute.co/androidmobile-ga/?utm_source=androidmobile&utm_medium=foninfo.net_1&utm_campaign=mark",
+            "app_java": "http://mp-01.directsmartroute.co/jad-ga/?utm_source=jad&utm_medium=foninfo.net_1&utm_campaign=mark"
+        },
+        "apiEndpoints": [
+            {
+                "checkApiState": true,
+                "contexts": {
+                    "addresses": {
+                        "url": "/"
+                    },
+                    "express_builder": {
+                        "url": "/expressbuilder"
+                    },
+                    "js": {
+                        "url": "/"
+                    },
+                    "mobile": {
+                        "url": "/service-tv-new"
+                    },
+                    "payment": {
+                        "url": "/account"
+                    },
+                    "playerprops": {
+                        "url": "/pp-proxy/proxy"
+                    },
+                    "promocodes": {
+                        "url": "/promocodes"
+                    },
+                    "quests": {
+                        "url": "/quests"
+                    },
+                    "reg": {
+                        "url": "/registration"
+                    },
+                    "reg_tsupis": {
+                        "url": "/"
+                    },
+                    "sportcasts": {
+                        "url": "/sportcastsproxy"
+                    },
+                    "stats": {
+                        "url": "/stat"
+                    },
+                    "tote_info": {
+                        "url": "/superexpress-info"
+                    }
+                },
+                "hosts": [
+                    {
+                        "url": "clientsapi36a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "clientsapi46a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "clientsapi15a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "clientsapi02a.bkfon-resource.ru"
+                    }
+                ],
+                "scheme": "https",
+                "serverName": "clientsapi"
+            },
+            {
+                "checkApiState": false,
+                "contexts": {
+                    "js_phone_line": {
+                        "url": "/"
+                    }
+                },
+                "hosts": [
+                    {
+                        "url": "line15a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "line36a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "line46a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "line02a.bkfon-resource.ru"
+                    }
+                ],
+                "scheme": "https",
+                "serverName": "line"
+            }
+        ],
+        "azureInfo": {
+            "hubName": "MindboxHub",
+            "key": "nCjJYzMlM/14BHkvllSzFc8UxchWWOQ5xYhmYD8uMnA=",
+            "service": "mindboxnamespace"
+        },
+        "config_url": [
+            "http://aZ4a2.c1d5c02650070df55f45.xyz/cipl/c.crt"
+        ],
+        "domain_url": "https://www.fonbet.ru/",
+        "features": {
+            "betOfTheDay": {
+                "enabled": true
+            },
+            "betV2": {
+                "enabled": false,
+                "valuesByCurrency": {
+                    "RUB": [
+                        50.0,
+                        100.0,
+                        200.0,
+                        350.0,
+                        500.0
+                    ]
+                },
+                "valuesFallback": [
+                    50.0,
+                    100.0,
+                    200.0,
+                    350.0,
+                    500.0
+                ]
+            },
+            "expressConstructor": {
+                "enabled": false,
+                "maxCount": 5,
+                "maxK": 100,
+                "minCount": 3,
+                "minK": 1.05
+            },
+            "gdpr": {
+                "enabled": false
+            },
+            "news": {
+                "enabled": true
+            },
+            "oldTabletDowngrade": {
+                "appUrl": "https://origin.bkfon-resource.ru/ContentRed/fon-4.7.4r.apk",
+                "enabled": true
+            },
+            "playerprops": {
+                "enabled": false
+            },
+            "predictionContest": {
+                "enabled": false,
+                "url": "https://www.fonbet.ru/prognoz/"
+            },
+            "quests": {
+                "enabled": false
+            },
+            "readyBet": true,
+            "registrationV3": {
+                "enabled": false,
+                "simplified": true
+            },
+            "sportcasts": {
+                "enabled": false
+            },
+            "tote": {
+                "enabled": true,
+                "permanently_shut_down": false
+            }
+        },
+        "info_pages": "https://www.fonbet.ru/mobile/pages/",
+        "qiwi_identification": "https://www.fonbet.ru/mobile/qiwi-identification",
+        "request_timeout": 10,
+        "servers": {
+            "addresses": {
+                "hosts": [
+                    {
+                        "url": "clientsapi36a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "clientsapi46a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "clientsapi15a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "clientsapi02a.bkfon-resource.ru"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "express_builder": {
+                "hosts": [
+                    {
+                        "url": "clientsapi36a.bkfon-resource.ru/expressbuilder"
+                    },
+                    {
+                        "url": "clientsapi46a.bkfon-resource.ru/expressbuilder"
+                    },
+                    {
+                        "url": "clientsapi15a.bkfon-resource.ru/expressbuilder"
+                    },
+                    {
+                        "url": "clientsapi02a.bkfon-resource.ru/expressbuilder"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "js": {
+                "hosts": [
+                    {
+                        "url": "clientsapi36a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "clientsapi46a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "clientsapi15a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "clientsapi02a.bkfon-resource.ru"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "js_phone_line": {
+                "hosts": [
+                    {
+                        "url": "line15a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "line36a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "line46a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "line02a.bkfon-resource.ru"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "mobile": {
+                "hosts": [
+                    {
+                        "url": "clientsapi36a.bkfon-resource.ru/service-tv-new"
+                    },
+                    {
+                        "url": "clientsapi46a.bkfon-resource.ru/service-tv-new"
+                    },
+                    {
+                        "url": "clientsapi15a.bkfon-resource.ru/service-tv-new"
+                    },
+                    {
+                        "url": "clientsapi02a.bkfon-resource.ru/service-tv-new"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "payment": {
+                "hosts": [
+                    {
+                        "url": "clientsapi36a.bkfon-resource.ru/account"
+                    },
+                    {
+                        "url": "clientsapi46a.bkfon-resource.ru/account"
+                    },
+                    {
+                        "url": "clientsapi15a.bkfon-resource.ru/account"
+                    },
+                    {
+                        "url": "clientsapi02a.bkfon-resource.ru/account"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "playerprops": {
+                "hosts": [
+                    {
+                        "url": "clientsapi36a.bkfon-resource.ru/pp-proxy/proxy"
+                    },
+                    {
+                        "url": "clientsapi46a.bkfon-resource.ru/pp-proxy/proxy"
+                    },
+                    {
+                        "url": "clientsapi15a.bkfon-resource.ru/pp-proxy/proxy"
+                    },
+                    {
+                        "url": "clientsapi02a.bkfon-resource.ru/pp-proxy/proxy"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "promocodes": {
+                "hosts": [
+                    {
+                        "url": "clientsapi36a.bkfon-resource.ru/promocodes"
+                    },
+                    {
+                        "url": "clientsapi46a.bkfon-resource.ru/promocodes"
+                    },
+                    {
+                        "url": "clientsapi15a.bkfon-resource.ru/promocodes"
+                    },
+                    {
+                        "url": "clientsapi02a.bkfon-resource.ru/promocodes"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "quests": {
+                "hosts": [
+                    {
+                        "url": "clientsapi36a.bkfon-resource.ru/quests"
+                    },
+                    {
+                        "url": "clientsapi46a.bkfon-resource.ru/quests"
+                    },
+                    {
+                        "url": "clientsapi15a.bkfon-resource.ru/quests"
+                    },
+                    {
+                        "url": "clientsapi02a.bkfon-resource.ru/quests"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "reg_tsupis": {
+                "hosts": [
+                    {
+                        "url": "clientsapi36a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "clientsapi46a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "clientsapi15a.bkfon-resource.ru"
+                    },
+                    {
+                        "url": "clientsapi02a.bkfon-resource.ru"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "sportcasts": {
+                "hosts": [
+                    {
+                        "url": "clientsapi36a.bkfon-resource.ru/sportcastsproxy"
+                    },
+                    {
+                        "url": "clientsapi46a.bkfon-resource.ru/sportcastsproxy"
+                    },
+                    {
+                        "url": "clientsapi15a.bkfon-resource.ru/sportcastsproxy"
+                    },
+                    {
+                        "url": "clientsapi02a.bkfon-resource.ru/sportcastsproxy"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "stats": {
+                "hosts": [
+                    {
+                        "url": "clientsapi36a.bkfon-resource.ru/stat"
+                    },
+                    {
+                        "url": "clientsapi46a.bkfon-resource.ru/stat"
+                    },
+                    {
+                        "url": "clientsapi15a.bkfon-resource.ru/stat"
+                    },
+                    {
+                        "url": "clientsapi02a.bkfon-resource.ru/stat"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            },
+            "tote_info": {
+                "hosts": [
+                    {
+                        "url": "clientsapi36a.bkfon-resource.ru/superexpress-info"
+                    },
+                    {
+                        "url": "clientsapi46a.bkfon-resource.ru/superexpress-info"
+                    },
+                    {
+                        "url": "clientsapi15a.bkfon-resource.ru/superexpress-info"
+                    },
+                    {
+                        "url": "clientsapi02a.bkfon-resource.ru/superexpress-info"
+                    }
+                ],
+                "scheme": "https",
+                "via_proxy": false
+            }
+        },
+        "static_url": "https://origin.bkfon-resource.ru/",
+        "stats_page": "https://s5.sir.sportradar.com/fonbet/",
+        "stats_url": "https://s5.sir.sportradar.com/fonbet/",
+        "tor_timeout": 20,
+        "tote_info": "https://www.fonbet.ru/mobile/superexpress-info/?locale=ru",
+        "update": [
+            "http://clientsapi15a.bkfon-resource.ru/mobile/update"
+        ],
+        "updateNow": [
+            "http://clientsapi15a.bkfon-resource.ru/mobile/update"
+        ]
+    },
+    "number_id": 109,
+    "server": [
+        "188.42.196.0"
+    ]
+}
